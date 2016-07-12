@@ -1,0 +1,53 @@
+.clock-design{
+	margin: 0 auto;
+	width: 600px;
+	height: 600px;
+	background:url("../images/bg.png");
+	background-size:100% auto;
+	border:25px solid #119;
+	border-radius: 50%;
+}
+.seconds-hand{
+	height: 200px;
+	width: 2px;
+	background-color: tomato;
+	position: relative;
+	top: 280px;
+	transform-origin: 100% 10%;
+	margin: 0 auto;
+	z-index: 2;
+/*	transition: 1s linear;*/
+}
+.minutes-hand{
+	height: 200px;
+	width: 4px;
+	background-color: tomato;
+	position: relative;
+	top: 80px;
+	right: 3px;
+	transform-origin: 100% 10%;
+	margin: 0 auto;
+/*	transition: 1s linear;*/
+	z-index: 1;
+}
+.hours-hand{
+	height: 130px;
+	width: 6px;
+	background-color: tomato;
+	position: relative;
+	top: -112px;
+	right: 3px;
+	transform-origin: 50% 9%;
+	margin: 0 auto;
+/*	transition: 1s linear;*/
+}
+.middle-wheel{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: tomato;
+	margin: 0 auto;
+	position: relative;
+	bottom: 245px;
+	left: -2px;
+}
