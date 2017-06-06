@@ -1,2 +1,1 @@
-# Hello-World
-hello world
+Download the folder and open index.html to see the application
